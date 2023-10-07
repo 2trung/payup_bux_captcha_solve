@@ -13,7 +13,7 @@
     'use strict';
     window.addEventListener('load', function() {
         console.log("hello");
-        const apikey = "lRn9Ug0Zw8xF2msqEl49mAyD3lwutD0d";
+        const apikey = "";
         // var element = document.getElementById("captcha");
         // var style = window.getComputedStyle(element);
         var element;
