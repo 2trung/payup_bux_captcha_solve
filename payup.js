@@ -2,20 +2,17 @@
 // @name         Payup Captcha Solve
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  try to take over the world!
-// @author       You
+// @description  payup.video Captcha Solve via goodxevil
+// @author       Trung Nguyen
 // @match        https://trustspace.squarespace.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
+// @icon         https://payup.video/assets/media/landing-images/fav.png
 // @grant        none
 // ==/UserScript==
 (function() {
 
     'use strict';
     window.addEventListener('load', function() {
-        console.log("hello");
-        const apikey = "";
-        // var element = document.getElementById("captcha");
-        // var style = window.getComputedStyle(element);
+        const apikey = "Xevil API";
         var element;
         var body;
         var styleAttribute;
@@ -115,11 +112,6 @@
                 });
         }
 
-        
-        // Your code here
     });
-
-
-
 
 })();
