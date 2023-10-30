@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  payup.video Captcha Solve via goodxevil
 // @author       Trung Nguyen
-// @match        https://trustspace.squarespace.com/*
+// @match        https://nonagon-oboe-j6hh.squarespace.com/*
 // @icon         https://payup.video/assets/media/landing-images/fav.png
 // @grant        none
 // ==/UserScript==
