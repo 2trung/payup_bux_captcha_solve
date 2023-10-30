@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Bux.money Captcha Solve via goodxevil
 // @author       Trung Nguyen
-// @match        https://trustspace.squarespace.com/*
+// @match        https://nonagon-oboe-j6hh.squarespace.com/*
 // @icon         https://bux.money/assets/media/logos/favicon.ico
 // @grant        none
 // ==/UserScript==
