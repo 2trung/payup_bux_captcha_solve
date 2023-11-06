@@ -5,8 +5,8 @@
 // @author       Trung Nguyen
 // @match        https://*.squarespace.com/*
 // @icon         https://www.tampermonkey.net/favicon.ico
-// @downloadURL  https://github.com/2trung/payup_bux_workcash_captcha_solve/main.js
-// @updateURL    https://github.com/2trung/payup_bux_workcash_captcha_solve/main.js
+// @downloadURL  https://github.com/2trung/payup_bux_workcash_captcha_solve/raw/main/main.js
+// @updateURL    https://github.com/2trung/payup_bux_workcash_captcha_solve/raw/main/main.js
 // @grant        none
 // ==/UserScript==
 (function() {
