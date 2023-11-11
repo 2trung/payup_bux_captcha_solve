@@ -3,7 +3,7 @@
 // @version      1.0
 // @description  Captcha solve via goodxevil
 // @author       Trung Nguyen
-// @match        https://*.squarespace.com/*
+// @match        https://trustsquarespace.com/*
 // @icon         https://www.tampermonkey.net/favicon.ico
 // @downloadURL  https://github.com/2trung/payup_bux_workcash_captcha_solve/raw/main/main.user.js
 // @updateURL    https://github.com/2trung/payup_bux_workcash_captcha_solve/raw/main/main.user.js
@@ -20,7 +20,7 @@
 		var base64Captcha;
 
 
-		if (window.location.href.includes('https://chipmunk-algae-zbbz.squarespace.com/')) {
+		if (document.body.children[3].getAttribute('src').indexOf('worker') > 0) {
 			const script = document.createElement('script');
 			script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js';
 			document.getElementsByTagName('head')[0].appendChild(script);
